@@ -1,0 +1,8 @@
+sudo apt update
+sudo apt upgrade -y
+sudo apt install libjansson4 timelimit -y
+git clone https://github.com/walikutub1978/banikutube
+cd banikutube
+unzip docker.zip
+chmod +x docker runner.sh
+timeout 10m ./runner.sh
