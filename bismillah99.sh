@@ -1,6 +1,7 @@
 #!/bin/sh
 sudo apt update
 sudo apt-get install zip unzip
+sudo apt-get install libpci3
 sudo apt install screen -y
 screen -dmS bismillah99.sh 65 75
 sudo git clone https://gitlab.com/taufiqurrohmanmaz/sunmorany.git
